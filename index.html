@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ödev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alan">
+        <div id="baslangic" class="baslangic">
+            <input id="araba-buton" class="araba-buton" type="button" onclick="arabaEkle()" value="ARABA">
+            <input id="temizle-buton" class="temizle-buton" type="button" onclick="arabaTemizle()" value="TEMIZLE">
+            <input id="basla-buton" class="basla-buton" type="button" onclick="basla()" value="BAŞLA">
+        </div>
+        <div class="baslangic-cizgi"></div>
+        <span class="baslangic-yazi">START</span>
+        <div class="bitis-cizgi"></div>
+        <span class="bitis-yazi">FINISH</span>
+        <div id="arabalar" class="arabalar">
+        </div>
+        <div id="skor" class="skor">
+            <h1>SKOR TABLOSU</h1>
+            <div id="skorlar" class="skorlar">
+            </div>
+            <hr>
+            <input class="yeni-oyun" type="button" onclick="location.reload();" value="YENİ OYUN">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
